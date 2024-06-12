@@ -59,7 +59,7 @@ public class Authentication {
 	}
 	
 	//@Test(priority=5)  // OAUTH1.0.2.0
-	void testOauth1Autentification() {
+	/*void testOauth1Autentification() {
 		String bearerToken = "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";
 		given()
 		      .auth().oauth("consumerKey", "consumerSecret", "accessToken", "tokenSecret") 
@@ -68,7 +68,7 @@ public class Authentication {
 		   .then()
 		      .statusCode(200)
 		      .log().all();
-	}
+	}*/
 	
 	@Test(priority=5)  // OAUTH1.0.2.0
 	void testOauth2Autentification() {
